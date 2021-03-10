@@ -1,6 +1,9 @@
 # You don't need to add the MQTT details for Home Assistant with the add-on installation, it will be auto-discovered!
 global:
   instanceName: networkCabinet
+  integrations:
+    - homeAssistant
+    - bluetoothLowEnergy
   cluster:
     networkInterface: eth0
     autoDiscovery: false
@@ -10,9 +13,7 @@ global:
       - 192.168.128.8:6425
       - 192.168.128.15:6425
       - 192.168.128.246:6425
-  integrations:
-    - homeAssistant
-    - bluetoothLowEnergy
+
 bluetoothLowEnergy:
   allowlist:
     - ecc179cda1194a09b4afd39955bdd424-100-1

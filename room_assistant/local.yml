@@ -5,7 +5,7 @@ global:
     networkInterface: eth0
     autoDiscovery: false
     port: 6425
-    weight: 20
+    weight: 1
     peerAddresses:
       - 192.168.128.8:6425
       - 192.168.128.15:6425

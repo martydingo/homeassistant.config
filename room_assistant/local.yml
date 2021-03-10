@@ -3,6 +3,7 @@ global:
   instanceName: networkCabinet
   cluster:
     networkInterface: eth0
+    weight: 10
   integrations:
     - homeAssistant
     - bluetoothLowEnergy

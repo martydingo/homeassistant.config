@@ -4,6 +4,8 @@ global:
   cluster:
     networkInterface: eth0
     weight: 10
+    peerAddresses:
+      - 192.168.128.15:6425
   integrations:
     - homeAssistant
     - bluetoothLowEnergy

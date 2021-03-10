@@ -3,8 +3,11 @@ global:
   instanceName: networkCabinet
   cluster:
     networkInterface: eth0
-    weight: 10
+    autoDiscovery: false
+    port: 6425
+    weight: 20
     peerAddresses:
+      - 192.168.128.8:6425
       - 192.168.128.15:6425
   integrations:
     - homeAssistant

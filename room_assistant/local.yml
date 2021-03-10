@@ -1,0 +1,14 @@
+# You don't need to add the MQTT details for Home Assistant with the add-on installation, it will be auto-discovered!
+global:
+  instanceName: networkCabinet
+  cluster:
+    networkInterface: eth0
+  integrations:
+    - homeAssistant
+    - bluetoothLowEnergy
+bluetoothLowEnergy:
+  allowlist:
+    - ecc179cda1194a09b4afd39955bdd424-100-1
+  tagOverrides:
+    ecc179cda1194a09b4afd39955bdd424-100-1:
+      name: 'hassAppBLE-phoneMarty'

@@ -1,0 +1,7 @@
+
+.*
+!.gitignore
+secrets.yaml
+harmony_*.conf
+*.db
+*.log

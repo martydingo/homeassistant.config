@@ -9,6 +9,7 @@ global:
     peerAddresses:
       - 192.168.128.8:6425
       - 192.168.128.15:6425
+      - 192.168.128.246:6425
   integrations:
     - homeAssistant
     - bluetoothLowEnergy

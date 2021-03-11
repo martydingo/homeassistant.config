@@ -20,3 +20,5 @@ bluetoothLowEnergy:
   tagOverrides:
     ecc179cda1194a09b4afd39955bdd424-100-1:
       name: 'hassAppBLE-phoneMarty'
+    911b104b28b5ad24a12cfe5ea9d21f24-10167-61958:
+      name: 'm5stick_blebeacon01'

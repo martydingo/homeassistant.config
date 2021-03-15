@@ -2,6 +2,9 @@
 # Configure a default setup of Home Assistant (frontend, api, etc)
 default_config:
 
+whitelist_external_dirs:
+  - /config/www
+
 # Text to speech
 tts:
   - platform: google_translate

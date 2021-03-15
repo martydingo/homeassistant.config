@@ -2,7 +2,7 @@
 # Configure a default setup of Home Assistant (frontend, api, etc)
 default_config:
 
-homeassistant: !include configurations/homeassistant.conf.yaml
+frontend: !include configurations/frontend.conf.yaml
 
 # Text to speech
 tts:

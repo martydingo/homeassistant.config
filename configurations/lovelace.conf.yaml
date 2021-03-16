@@ -4,3 +4,5 @@ resources:
     type: module
   - url: /hacsfiles/light-entity-card/light-entity-card.js
     type: module
+  - url: /hacsfiles/lovelace-layout-card/layout-card.js
+    type: module

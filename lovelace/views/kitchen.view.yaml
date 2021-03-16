@@ -1,0 +1,18 @@
+title: Kitchen
+path: kitchen
+badges: []
+cards:
+  - type: 'custom:auto-entities'
+    card:
+      type: grid
+      columns: 1
+      square: true
+    card_param: cards
+    filter:
+      include:
+        - domain: light
+          options:
+            type: 'custom:light-entity-card'
+          area: Kitchen
+    sort:
+      method: state

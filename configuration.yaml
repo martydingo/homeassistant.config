@@ -1,12 +1,13 @@
-
-# Configure a default setup of Home Assistant (frontend, api, etc)
+# To Do: Split into seperate YAML
 default_config:
-
-frontend: !include configurations/frontend.conf.yaml
-
-# Text to speech
+# To Do: Split into seperate YAML
 tts:
   - platform: google_translate
+
+# Front End Configuration
+frontend: !include configurations/frontend.conf.yaml
+# Front End Configuration
+lovelace: !include configurations/lovelace.conf.yaml
 
 group: !include groups.yaml
 automation: !include automations.yaml

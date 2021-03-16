@@ -1,0 +1,14 @@
+title: Oakhampton Court
+views:
+# Home 
+  - !include lovelace/views/home.view.yaml
+# Living 
+  - !include lovelace/views/living.view.yaml
+# Kitchen 
+  - !include lovelace/views/kitchen.view.yaml
+# Bedroom 
+  - !include lovelace/views/bedroom.view.yaml
+# Office 
+  - !include lovelace/views/office.view.yaml
+# Bathroom 
+  - !include lovelace/views/bathroom.view.yaml

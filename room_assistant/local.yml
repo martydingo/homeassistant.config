@@ -8,18 +8,13 @@ global:
     networkInterface: eth0
     autoDiscovery: false
     port: 6425
-    weight: 100
+    weight: 90
     peerAddresses:
       - 192.168.128.8:6425
-      - 192.168.128.15:6425
-      - 192.168.128.246:6425
 
 bluetoothLowEnergy:
   allowlist:
     - ecc179cda1194a09b4afd39955bdd424-100-1
-    - 911b104b28b5ad24a12cfe5ea9d21f24-10167-61958
   tagOverrides:
     ecc179cda1194a09b4afd39955bdd424-100-1:
-      name: 'hassAppBLE-phoneMarty'
-    911b104b28b5ad24a12cfe5ea9d21f24-10167-61958:
-      name: 'm5stick_blebeacon01'
+      name: 'phoneMarty'

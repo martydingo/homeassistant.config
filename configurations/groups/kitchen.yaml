@@ -1,0 +1,4 @@
+kitchen:
+- light.kitchen_bench
+- light.kitchen_sink
+- light.kitchen_stovetop

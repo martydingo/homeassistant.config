@@ -1,0 +1,7 @@
+bathroom:
+- light.bathroom_bath_f
+- light.bathroom_bath_r
+- light.bathroom_shower_f
+- light.bathroom_shower_r
+- light.bathroom_sink_f
+- light.bathroom_sink_r

@@ -8,6 +8,8 @@ tts:
 frontend: !include configurations/frontend.conf.yaml
 # Lovelace Configuration
 lovelace: !include configurations/lovelace.conf.yaml
+# Groups Configuration
+groups: !include_dir_named configurations/groups/
 
 automation: !include automations.yaml
 script: !include scripts.yaml

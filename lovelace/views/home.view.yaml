@@ -13,6 +13,6 @@ cards:
         - domain: group
           options:
             type: 'custom:light-entity-card'
-          name: '*light*'
+          name: '*_lights'
     sort:
       method: state

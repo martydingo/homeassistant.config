@@ -13,6 +13,9 @@ cards:
         - domain: group
           options:
             type: 'custom:light-entity-card'
+            shorten_cards: true
+            color_picker: false
+            persist_features: true
           name: '*_lights'
     sort:
       method: state

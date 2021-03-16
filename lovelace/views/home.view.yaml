@@ -6,7 +6,7 @@ cards:
     card:
       type: grid
       columns: 1
-      square: true
+      square: false
     card_param: cards
     filter:
       include:

@@ -14,6 +14,9 @@ cluster:
 bluetoothLowEnergy:
   allowlist:
     - ecc179cda1194a09b4afd39955bdd424-100-1
+    - e0eed4eec1a340e0a052b86e8bd6e4ef-100-1
   tagOverrides:
     ecc179cda1194a09b4afd39955bdd424-100-1:
-      name: 'phoneMarty'
+      name: 'Marty'
+    e0eed4eec1a340e0a052b86e8bd6e4ef-100-1:
+      name: 'Lukasz'

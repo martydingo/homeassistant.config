@@ -1,4 +1,4 @@
-#mode: yaml
+mode: yaml
 resources:
   - url: /hacsfiles/lovelace-auto-entities/auto-entities.js
     type: module
@@ -6,3 +6,4 @@ resources:
     type: module
   - url: /hacsfiles/lovelace-layout-card/layout-card.js
     type: module
+    

@@ -9,7 +9,6 @@ frontend: !include configurations/frontend.conf.yaml
 # Front End Configuration
 lovelace: !include configurations/lovelace.conf.yaml
 
-group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
 scene: !include scenes.yaml

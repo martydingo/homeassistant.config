@@ -1,1 +1,1 @@
-!include_dir_list configurations/sensors/mqtt
+!include configurations/sensors/mqtt/enviroplus.yaml

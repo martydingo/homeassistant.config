@@ -1,4 +1,18 @@
 title: Home
 path: home
 badges: []
-cards: []
+cards: 
+  - type: 'custom:auto-entities'
+    card:
+      type: grid
+      columns: 1
+      square: true
+    card_param: cards
+    filter:
+      include:
+        - domain: group
+          options:
+            type: 'custom:light-entity-card'
+          name: '*light*'
+    sort:
+      method: state

@@ -1,1 +1,1 @@
-!include_dir_merge_list configurations/sensors/mqtt
+!include_dir_list configurations/sensors/mqtt

@@ -4,9 +4,9 @@ default_config:
 tts:
   - platform: google_translate
 
-# Front End Configuration
+# Front-end Configuration
 frontend: !include configurations/frontend.conf.yaml
-# Front End Configuration
+# Lovelace Configuration
 lovelace: !include configurations/lovelace.conf.yaml
 
 automation: !include automations.yaml

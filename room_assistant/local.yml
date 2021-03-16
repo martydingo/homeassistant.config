@@ -4,13 +4,13 @@ global:
   integrations:
     - homeAssistant
     - bluetoothLowEnergy
-  cluster:
-    networkInterface: eth0
-    autoDiscovery: false
-    port: 6425
-    weight: 90
-    peerAddresses:
-      - 192.168.128.10:6425
+cluster:
+  networkInterface: eth0
+  autoDiscovery: false
+  port: 6425
+  weight: 90
+  peerAddresses:
+    - 192.168.128.10:6425
 bluetoothLowEnergy:
   allowlist:
     - ecc179cda1194a09b4afd39955bdd424-100-1

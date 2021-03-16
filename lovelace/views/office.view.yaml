@@ -2,6 +2,8 @@ title: Office
 path: office
 badges: []
 cards:
+  - type: 'custom:light-entity-card'
+    entity: group.office
   - type: 'custom:auto-entities'
     card:
       type: grid

@@ -2,6 +2,8 @@ title: Bathroom
 path: bathroom
 badges: []
 cards:
+  - type: 'custom:light-entity-card'
+    entity: group.bathroom
   - type: 'custom:auto-entities'
     card:
       type: grid

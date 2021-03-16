@@ -2,6 +2,8 @@ title: Bedroom
 path: bedroom
 badges: []
 cards:
+  - type: 'custom:light-entity-card'
+    entity: group.bedroom
   - type: 'custom:auto-entities'
     card:
       type: grid

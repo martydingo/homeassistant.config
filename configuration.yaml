@@ -10,6 +10,8 @@ frontend: !include configurations/frontend.conf.yaml
 lovelace: !include configurations/lovelace.conf.yaml
 # Group Configuration
 group: !include_dir_named configurations/groups/
+# Sensor configurations
+sensor: !include configurations/sensors/sensors.conf.yaml
 
 automation: !include automations.yaml
 script: !include scripts.yaml

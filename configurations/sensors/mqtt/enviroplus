@@ -1,0 +1,44 @@
+- platform: mqtt
+  name: "Enviro+ Proximity"
+  unit_of_measurement: 'metres'
+  state_topic: "enviroplus/proximity"
+- platform: mqtt
+  name: "Enviro+ Lux"
+  state_topic: "enviroplus/lux"
+  unit_of_measurement: 'lx'
+- platform: mqtt
+  name: "Enviro+  Temperature"
+  unit_of_measurement: '°C'
+  state_topic: "enviroplus/temperature"
+- platform: mqtt
+  name: "Enviro+ Pressure"
+  unit_of_measurement: 'hPa'
+  state_topic: "enviroplus/pressure"
+- platform: mqtt
+  name: "Enviro+ Humidity"
+  unit_of_measurement: '%'
+  state_topic: "enviroplus/humidity"
+- platform: mqtt
+  name: "Enviro+ Oxidising Gas Resistance"
+  unit_of_measurement: 'Ω'
+  state_topic: "enviroplus/gas/oxidising"
+- platform: mqtt
+  name: "Enviro+ Reducing Gas Resistance"
+  unit_of_measurement: 'Ω'
+  state_topic: "enviroplus/gas/reducing"
+- platform: mqtt
+  name: "Enviro+ NH3 Gas Resistance"
+  unit_of_measurement: 'Ω'
+  state_topic: "enviroplus/gas/nh3"
+- platform: mqtt
+  name: "Enviro+ Particulate Matter 1.0ug/m3"
+  unit_of_measurement: 'ug/m3'
+  state_topic: "enviroplus/particulate/1.0"
+- platform: mqtt
+  name: "Enviro+ Particulate Matter 2.5ug/m3"
+  unit_of_measurement: 'ug/m3'
+  state_topic: "enviroplus/particulate/2.5"
+- platform: mqtt
+  name: "Enviro+ Particulate Matter 10ug/m3"
+  unit_of_measurement: 'ug/m3'
+  state_topic: "enviroplus/particulate/10.0"

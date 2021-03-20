@@ -19,8 +19,14 @@ bluetoothLowEnergy:
   allowlist:
     - ecc179cda1194a09b4afd39955bdd424-100-1
     - e0eed4eec1a340e0a052b86e8bd6e4ef-100-1
+    - 2a55ffffffffffffffffffffffffff01-65535-65535
+    - 2a55ffffffffffffffffffffffffff02-65535-65535
   tagOverrides:
     ecc179cda1194a09b4afd39955bdd424-100-1:
-      name: 'Marty'
+      name: 'Marty Phone'
+    2a55ffffffffffffffffffffffffff01-65535-65535:
+      name: 'Marty BLE Tag'
     e0eed4eec1a340e0a052b86e8bd6e4ef-100-1:
-      name: 'Lukasz'
+      name: 'Lukasz Phone'
+    2a55ffffffffffffffffffffffffff02-65535-65535:
+      name: 'Lukasz BLE Tag'

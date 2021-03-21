@@ -11,51 +11,7 @@ lovelace: !include configurations/lovelace.conf.yaml
 # Group Configuration
 group: !include_dir_named configurations/groups/
 # Sensor configurations
-sensor: 
-- platform: mqtt
-  name: "Enviroplus Proximity"
-  unit_of_measurement: 'metres'
-  state_topic: "enviroplus/proximity"
-- platform: mqtt
-  name: "Enviroplus Lux"
-  state_topic: "enviroplus/lux"
-  unit_of_measurement: 'lx'
-- platform: mqtt
-  name: "Enviroplus  Temperature"
-  unit_of_measurement: '°C'
-  state_topic: "enviroplus/temperature"
-- platform: mqtt
-  name: "Enviroplus Pressure"
-  unit_of_measurement: 'hPa'
-  state_topic: "enviroplus/pressure"
-- platform: mqtt
-  name: "Enviroplus Humidity"
-  unit_of_measurement: '%'
-  state_topic: "enviroplus/humidity"
-- platform: mqtt
-  name: "Enviroplus Oxidising Gas Resistance"
-  unit_of_measurement: 'Ω'
-  state_topic: "enviroplus/gas/oxidising"
-- platform: mqtt
-  name: "Enviroplus Reducing Gas Resistance"
-  unit_of_measurement: 'Ω'
-  state_topic: "enviroplus/gas/reducing"
-- platform: mqtt
-  name: "Enviroplus NH3 Gas Resistance"
-  unit_of_measurement: 'Ω'
-  state_topic: "enviroplus/gas/nh3"
-- platform: mqtt
-  name: "Enviroplus Particulate Matter 1.0ug/m3"
-  unit_of_measurement: 'ug/m3'
-  state_topic: "enviroplus/particulate/1.0"
-- platform: mqtt
-  name: "Enviroplus Particulate Matter 2.5ug/m3"
-  unit_of_measurement: 'ug/m3'
-  state_topic: "enviroplus/particulate/2.5"
-- platform: mqtt
-  name: "Enviroplus Particulate Matter 10ug/m3"
-  unit_of_measurement: 'ug/m3'
-  state_topic: "enviroplus/particulate/10.0"
+sensor: !include_dir_merge_list configurations/sensor
 
 automation: !include automations.yaml
 script: !include scripts.yaml

@@ -7,6 +7,8 @@ tts:
 
 # Recorder Configuration
 recorder: !include configurations/recorder.conf.yaml
+# InfluxDB configuration
+influxdb: !include configurations/influxdb.conf.yaml
 # Front-end Configuration
 frontend: !include configurations/frontend.conf.yaml
 # Lovelace Configuration

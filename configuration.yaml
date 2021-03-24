@@ -4,7 +4,8 @@ default_config:
 tts:
   - platform: google_translate
 
-
+# Prometheus Configuration
+prometheus:
 # Recorder Configuration
 recorder: !include configurations/recorder.conf.yaml
 # InfluxDB configuration

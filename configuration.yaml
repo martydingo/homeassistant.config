@@ -37,6 +37,29 @@ switch:
     - light.bathroom_bath_r
     - light.bathroom_bath_f
 
+- platform: circadian_lighting
+  name: circadian_lighting_bedroom
+  lights_ct:
+    - light.bathroom_bedroom_1
+    - light.bathroom_bedroom_2
+
+- platform: circadian_lighting
+  name: circadian_lighting_kitchen
+  lights_ct:
+    - light.bathroom_kitchen_stovetop
+    - light.bathroom_kitchen_sink
+    - light.bathroom_kitchen_bench
+
+- platform: circadian_lighting
+  name: circadian_lighting_living
+  lights_ct:
+    - light.living_ceiling_1
+    - light.living_ceiling_2
+    - light.living_ceiling_3
+    - light.living_ceiling_4
+    - light.living_seating_lamp
+    - light.living_dining_table
+
 #Circadian Configuration
 circadian_lighting: 
 

@@ -30,3 +30,7 @@ bluetoothLowEnergy:
       name: 'Lukasz Phone'
     2a55ffffffffffffffffffffffffff02-65535-65535:
       name: 'Lukasz BLE Tag'
+logger:
+    elasticsearch:
+        enabled: true
+        node: http://10.32.32.247:9200

@@ -21,6 +21,7 @@ bluetoothLowEnergy:
     - e0eed4eec1a340e0a052b86e8bd6e4ef-100-1
     - 2a55ffffffffffffffffffffffffff01-65535-65535
     - 2a55ffffffffffffffffffffffffff02-65535-65535
+    - 66758D66-0381-491B-9B25-F8E85FD4DAFE
   tagOverrides:
     ecc179cda1194a09b4afd39955bdd424-100-1:
       name: 'Marty Phone'
@@ -30,6 +31,8 @@ bluetoothLowEnergy:
       name: 'Lukasz Phone'
     2a55ffffffffffffffffffffffffff02-65535-65535:
       name: 'Lukasz BLE Tag'
+    66758D66-0381-491B-9B25-F8E85FD4DAFE:
+      name: 'Marty iPhone'
 logger:
     elasticsearch:
         enabled: true

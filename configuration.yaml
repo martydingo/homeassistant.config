@@ -3,6 +3,8 @@ default_config:
 # To Do: Split into seperate YAML
 tts:
   - platform: google_translate
+magic_areas:
+conversation:
 
 webostv: !include configurations/webostv.conf.yaml
 # Prometheus Configuration
